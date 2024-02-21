@@ -11,5 +11,5 @@ namespace studentInfoHub.Data;
             
         }
 
-        public DbSet<Student> Stud { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
