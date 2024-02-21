@@ -1,4 +1,6 @@
-namespace studentInfoHub.Services.Student;
+using studentInfoHub.Models;
+
+namespace studentInfoHub.Services.StudentServ;
 
     public interface IStudentService
     {
