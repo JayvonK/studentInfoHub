@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using studentInfoHub.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
