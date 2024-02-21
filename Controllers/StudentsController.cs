@@ -23,7 +23,7 @@ namespace studentInfoHub.Controllers;
 
     [HttpGet]
     [Route("GetStudent/{studentName}")]
-    public List<Student> SearchStudent(string studentName){
+    public Student SearchStudent(string studentName){
         return _studentService.SearchStudent(studentName);
     }
 
