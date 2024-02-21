@@ -1,3 +1,4 @@
+
 namespace studentInfoHub.Models;
     public class Student
     {
@@ -5,4 +6,9 @@ namespace studentInfoHub.Models;
         public string Name {get; set;} = "Ken";
 
         public string Grade {get; set;} = "N/A";
+
+    internal List<Student> ToList()
+    {
+        throw new NotImplementedException();
     }
+}

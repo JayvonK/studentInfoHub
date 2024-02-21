@@ -6,7 +6,7 @@ namespace studentInfoHub.Services.StudentServ;
     {
         List<Student> GetStudents();
 
-        List<Student> SearchStudent(string name);
+        string SearchStudent(string name);
 
         List<Student> AddStudent(string name, string grade);
 

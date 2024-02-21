@@ -19,22 +19,47 @@ public class StudentService : IStudentService
 
         _db.Students.Add(newStudent);
 
+        _db.SaveChanges();
+
         return _db.Students.ToList();
     }
 
     public List<Student> DeleteStudent(string name)
     {
-        throw new NotImplementedException();
+        var found = _db.Students.FirstOrDefault(student => student.Name == name);
+        if(found != null){
+            _db.Remove(found);
+            _db.SaveChanges();
+        }
+
+        return _db.Students.ToList();
     }
 
     public List<Student> GetStudents()
     {
-        throw new NotImplementedException();
+        return _db.Students.ToList();
     }
 
-    public List<Student> SearchStudent(string name)
+    public string SearchStudent(string name)
     {
-        throw new NotImplementedException();
+        var found = _db.Students.FirstOrDefault(student => student.Name == name);
+        if(found != null){
+            return found.ToString();
+        }else {
+            return "No Student Found";
+        }
+    }
+
+    public List<Student> UpdateStudent(string studentName, string name, string grade)
+    {
+        var found = _db.Students.FirstOrDefault(student => student.Name == studentName);
+        if(found != null){
+            found.Name = name;
+            found.Grade = grade;
+            _db.SaveChanges();
+        }
+
+        return _db.Students.ToList();
     }
 
     public List<Student> UpdateStudent(string name, string grade)
