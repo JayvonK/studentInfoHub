@@ -40,14 +40,9 @@ public class StudentService : IStudentService
         return _db.Students.ToList();
     }
 
-    public string SearchStudent(string name)
+    public List<Student> SearchStudent(string name)
     {
-        var found = _db.Students.FirstOrDefault(student => student.Name == name);
-        if(found != null){
-            return found.ToString();
-        }else {
-            return "No Student Found";
-        }
+        return _db.Students.ToList();
     }
 
     public List<Student> UpdateStudent(string studentName, string name, string grade)
