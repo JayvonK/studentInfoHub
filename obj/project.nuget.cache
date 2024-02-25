@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uUVixvZ+gUy+iLQbRq8xyhg3N1YAook3YxjlUGKu5Y05rYYwRCBJmeGVv4sU131QrOYo8MVG6lHiQIJ8LIicHA==",
+  "dgSpecHash": "bu4OaXlnD/QahHHLcH7WsnwLo1EftNCg/arqtpnxfTyEuwQQalw8V3Gq8c0hb4zMnbIxH8/rUyCTfQZF2j/N/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaykh\\OneDrive\\Desktop\\CodeStack Academy\\BreakPractice\\Level 2\\studentInfoHub\\studentInfoHub.csproj",
+  "projectFilePath": "C:\\Users\\jaykh\\OneDrive\\Desktop\\CodeStack Academy\\BreakPractice\\Level 2\\studentInfoHubDatabase\\studentInfoHub.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaykh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\jaykh\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",

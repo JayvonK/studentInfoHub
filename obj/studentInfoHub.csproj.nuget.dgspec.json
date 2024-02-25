@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jaykh\\OneDrive\\Desktop\\CodeStack Academy\\BreakPractice\\Level 2\\studentInfoHub\\studentInfoHub.csproj": {}
+    "C:\\Users\\jaykh\\OneDrive\\Desktop\\CodeStack Academy\\BreakPractice\\Level 2\\studentInfoHubDatabase\\studentInfoHub.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jaykh\\OneDrive\\Desktop\\CodeStack Academy\\BreakPractice\\Level 2\\studentInfoHub\\studentInfoHub.csproj": {
+    "C:\\Users\\jaykh\\OneDrive\\Desktop\\CodeStack Academy\\BreakPractice\\Level 2\\studentInfoHubDatabase\\studentInfoHub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaykh\\OneDrive\\Desktop\\CodeStack Academy\\BreakPractice\\Level 2\\studentInfoHub\\studentInfoHub.csproj",
+        "projectUniqueName": "C:\\Users\\jaykh\\OneDrive\\Desktop\\CodeStack Academy\\BreakPractice\\Level 2\\studentInfoHubDatabase\\studentInfoHub.csproj",
         "projectName": "studentInfoHub",
-        "projectPath": "C:\\Users\\jaykh\\OneDrive\\Desktop\\CodeStack Academy\\BreakPractice\\Level 2\\studentInfoHub\\studentInfoHub.csproj",
+        "projectPath": "C:\\Users\\jaykh\\OneDrive\\Desktop\\CodeStack Academy\\BreakPractice\\Level 2\\studentInfoHubDatabase\\studentInfoHub.csproj",
         "packagesPath": "C:\\Users\\jaykh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaykh\\OneDrive\\Desktop\\CodeStack Academy\\BreakPractice\\Level 2\\studentInfoHub\\obj\\",
+        "outputPath": "C:\\Users\\jaykh\\OneDrive\\Desktop\\CodeStack Academy\\BreakPractice\\Level 2\\studentInfoHubDatabase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jaykh\\AppData\\Roaming\\NuGet\\NuGet.Config"
